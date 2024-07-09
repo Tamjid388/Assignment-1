@@ -50,9 +50,78 @@ font-weight: 400;
 background: rgb(13, 19, 33);
 
 }
+/* Why WWeb Development */
 .web-development-container{
     width: 1516px;
 height: 1853px;
 border: 2px solid black;
 margin: 0 auto;
 }
+.web-dev-main{
+    width: 1258px;
+    height: 1640px;
+    border: 2px solid black;
+    margin: 0 auto;
+   
+    margin-top: 106px;
+    margin-bottom: 106px;
+    
+}
+.web-development-container
+.learn-more{
+    width: 1258px;
+    height: 447px;
+  
+    
+}
+.learn-more-subdiv{
+    width: 1130px;
+    height: 319px;
+    border: 2px solid black;
+  margin: 63px;
+  display: flex;
+  justify-content: space-between;
+}
+.learn-more-details{
+    width: 634px;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-between;
+    
+
+}
+.learn-btn {
+    border: none;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+ 
+    font-size: 16px; 
+  }
+  
+
+  
+  .learn-more-img {
+    width: 345.2px;
+  }
+  /*  overriding some properties for 2nd box only */
+  .box2-details{
+    margin-right: 134px;
+
+  }
+  .box2-subdiv{
+    color: red
+    ;
+    display: flex;
+    justify-content: space-around;
+
+  }
+  /* esigining Inspiration Section */
+  .inspiration-container{
+    width: 1516px;
+    height: 1853px;
+    border: 2px solid black;
+    margin: 0 auto;
+  }
