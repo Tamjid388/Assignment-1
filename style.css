@@ -1,17 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
-*{
-    margin: 0;
-    padding: 0;
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
 }
-body{
-
-    font-family: "Azeret Mono", monospace;
+body {
+  font-family: "Azeret Mono", monospace;
 }
 /* html, body {
   overflow-x: hidden; 
 } */
 /* Reusable Components Styling */
-.paragraph{
+.paragraph {
   color: rgb(13, 19, 33);
   font-family: Azeret Mono;
   font-size: 21.2px;
@@ -20,341 +19,297 @@ body{
   letter-spacing: 0%;
   text-align: center;
   opacity: 0.7;
-  
 }
-.titles{
+.titles {
   color: rgb(13, 19, 33);
   font-family: Azeret Mono;
   font-size: 42.5px;
   font-weight: 800;
- 
 }
 
-
-#header{
-    width: 1915px;
-height: 867px;
-/* background-color: aqua; */
-background-image: url(assets/Hero-bg.png);
-background-repeat: no-repeat;
-background-size: cover;
-margin: 0 auto;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-text-align: center;
-
-
+#header {
+  width: 1915px;
+  height: 867px;
+  /* background-color: aqua; */
+  background-image: url(assets/Hero-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
-header img{
-    width: 173.03px;
-height: 228.9px;
+header img {
+  width: 173.03px;
+  height: 228.9px;
 }
-header h1{
-    margin-bottom: 24px;
-    font-family: "Azeret Mono", monospace;
-    font-size: 48px;
-    font-weight: 800;
+header h1 {
+  margin-bottom: 24px;
+  font-family: "Azeret Mono", monospace;
+  font-size: 48px;
+  font-weight: 800;
 }
-header p{
-    margin-bottom: 32px;
-    color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 16px;
-font-weight: 400;
-
+header p {
+  margin-bottom: 32px;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
 }
-.btn{
-    padding: 21px 24px 21px 24px;
-    border-radius: 8px;
-    color: white;
-    
+.btn {
+  padding: 21px 24px 21px 24px;
+  border-radius: 8px;
+  color: white;
 
-background: rgb(13, 19, 33);
-
+  background: rgb(13, 19, 33);
 }
 /*............ Why WWeb Development .........*/
-.web-development-container{
-    width: 1516px;
- 
-height: 1853px;
+.web-development-container {
+  width: 1516px;
 
-margin: 0 auto;
+  height: 1853px;
+
+  margin: 0 auto;
 }
-.web-dev-main{
-    width: 1258px;
-    height: 1640px;
-   
-    margin: 0 auto;
-   
-    margin-top: 106px;
-    margin-bottom: 106px;
-    
+.web-dev-main {
+  width: 1258px;
+  height: 1640px;
+
+  margin: 0 auto;
+
+  margin-top: 106px;
+  margin-bottom: 106px;
 }
-.web-development-container
-.learn-more{
-    width: 1258px;
-    height: 447px;
-  
-    
+.web-development-container .learn-more {
+  width: 1258px;
+  height: 447px;
 }
-.why-dev h1{
+.why-dev h1 {
   text-align: center;
   margin-bottom: 32px;
 }
-.learn-more-subdiv{
-    width: 1130px;
-    height: 319px;
- 
+.learn-more-subdiv {
+  width: 1130px;
+  height: 319px;
+
   margin: 63px;
   display: flex;
   justify-content: space-between;
 }
-.learn-more-details{
-    width: 634px;
-    display: flex;
-    flex-direction: column;
+.learn-more-details {
+  width: 634px;
+  display: flex;
+  flex-direction: column;
 
-    justify-content: space-between;
-    
+  justify-content: space-between;
 }
-.learn-more-details h1{
+.learn-more-details h1 {
   color: rgba(13, 19, 33, 0.7);
-font-family: Azeret Mono;
-font-size: 31.9px;
-font-weight: 700;
-
+  font-family: Azeret Mono;
+  font-size: 31.9px;
+  font-weight: 700;
 }
-.learn-more-details p{
+.learn-more-details p {
   text-align: start;
- 
-
 }
 .learn-btn {
-  
-    box-sizing: border-box;
-border: 1px solid rgb(13, 19, 33);
-opacity: 0.7;
-padding: 16px 26px 16px 26px;
-font-size: 20px;
-font-weight: 600;
-  }
-  
+  box-sizing: border-box;
+  border: 1px solid rgb(13, 19, 33);
+  opacity: 0.7;
+  padding: 16px 26px 16px 26px;
+  font-size: 20px;
+  font-weight: 600;
+}
 
-  
-  .learn-more-img {
-    width: 345.2px;
-  }
-  /*  overriding some properties for 2nd box only */
-  .box2-details{
-    margin-right: 134px;
+.learn-more-img {
+  width: 345.2px;
+}
+/*  overriding some properties for 2nd box only */
+.box2-details {
+  margin-right: 134px;
+}
+.box2-subdiv {
+  color: red;
+  display: flex;
+  justify-content: space-around;
+}
+/* ....Desigining Inspiration Section............... */
+.inspiration-container {
+  width: 1516px;
+  height: 1030px;
 
-  }
-  .box2-subdiv{
-    color: red
-    ;
-    display: flex;
-    justify-content: space-around;
+  margin: 0 auto;
+  margin-top: 119px;
+}
+.inspiration-container .heading {
+  text-align: center;
+}
+.video {
+  width: 1516px;
+  height: 816.6px;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+iframe {
+  /* width: 1431px; */
+  width: 88%;
+  height: 771.5px;
 
-  }
-  /* ....Desigining Inspiration Section */
-  .inspiration-container{
+  border-radius: 21px;
+  margin-top: 10px;
+}
+.video {
+  margin-top: 40px;
+}
 
-    width: 1516px;
-    height: 1030px;
- 
-   
-    margin: 0 auto;
-    margin-top: 119px;
-  }
-  .inspiration-container .heading {
-    text-align: center;
-  }
-  .video{
-    width: 1516px;
-    height: 816.6px;
-    box-sizing: border-box;
-    border: 1px solid rgba(13, 19, 33, 0.2);
-border-radius: 16px;
-display: flex;
-justify-content: center;
-padding-top:10px ;
+.inspiration-container .heading h1 {
+  font-size: 42px;
+  margin-bottom: 31.9px;
+}
+.inspiration-container .heading p {
+}
 
-  }
-  iframe{
-    /* width: 1431px; */
-    width: 88%;
-    height: 771.5px; 
+/* ..........Styling: My Current Target ...................*/
+.curent-target-container {
+  max-width: 1515px;
 
+  height: 612px;
 
-    border-radius: 21px;
-    
+  margin: 0 auto;
+  margin-top: 200px;
+}
 
-  }
- .video{
-margin-top: 40px; 
-  }
-
-
-
- .inspiration-container .heading h1{
-    font-size: 42px;
-    margin-bottom: 31.9px;
-
-  }
-  .inspiration-container .heading p{
- 
-
-  }
-
-  /* ..........Styling: My Current Target ...................*/
-  .curent-target-container{
-    max-width: 1515px;
-
-    height: 612px;
-  
-    
-    margin: 0 auto;
-    margin-top: 200px;
-  }
-
-  .curent-target-container h1{
-    text-align: center;
+.curent-target-container h1 {
+  text-align: center;
   margin-bottom: 32px;
-  }
+}
 
-  .curent-target-container .target-subtitle{
-    margin-bottom:63px ;
-   
-  }
-  .target-card img{
-    width: 52.6px;
-    margin-bottom: 32px;
-   
-  }
-  .target-cards{
-    display: flex;
-    gap: 10px;
-    
-  }
-  .target-card{
-    width: 484px;
-    height: 397px;
- 
-    border-radius: 16px;
-background: rgba(255, 76, 30, 0.05);
-display: flex;
-flex-direction: column;
-justify-content: center;
-text-align: start;
-align-items: flex-start;
+.curent-target-container .target-subtitle {
+  margin-bottom: 63px;
+}
+.target-card img {
+  width: 52.6px;
+  margin-bottom: 32px;
+}
+.target-cards {
+  display: flex;
+  gap: 10px;
+}
+.target-card {
+  width: 484px;
+  height: 397px;
 
-gap: 10px;
-margin: 0 auto;
-box-sizing: border-box;
-padding-left: 20px;
+  border-radius: 16px;
+  background: rgba(255, 76, 30, 0.05);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: start;
+  align-items: flex-start;
 
-  }
+  gap: 10px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding-left: 20px;
+}
+
+.curent-target-container a {
+  margin-top: 32px;
+  color: black;
+  text-decoration: underline;
+  font-size: 21px;
+  font-weight: 700;
+}
+.target-card p {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.cssCARD {
+  background-color: rgba(0, 76, 232, 0.05);
+}
+.jsCARD {
+  background-color: rgba(255, 223, 0, 0.05);
+}
+/* Support Section */
+.support-conatainer {
+  max-width: 1515px;
+  height: 416.29px;
+  margin: 0 auto;
+
+  background-image:linear-gradient(90deg, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.2) 50%),
+   url(assets/handshake.jpg);
+
   
+  border-radius: 16px;
 
+  
+  background-position: center;
 
-  .curent-target-container a{
-    margin-top: 32px;
-    color: black;
-    text-decoration: underline;
-    font-size: 21px;
-    font-weight: 700;
-  }
-  .target-card p{
-    color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 16px;
-font-weight: 400;
-line-height: 26px;
-letter-spacing: 0%;
-text-align: left;
-  }
-  .cssCARD{
-   background-color: rgba(0, 76, 232, 0.05);
-
-  }
-  .jsCARD{
-background-color: rgba(255, 223, 0, 0.05);
-
-  }
-  /* Support Section */
-  .support-conatainer{
-    max-width: 1515px;
-    height: 416.29px;
-    margin: 0 auto;
-    background-image: 
-   
-    url(assets/handshake.jpg); 
-    border-radius: 16px;
-
-background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url(assets/handshake.jpg);
-background-position: center;
-
-margin-bottom: 120px;
-display: flex;
-flex-direction: column;
-justify-content: center;
-/* gap: 20px; */
-align-items: center;
-
-  }
-  .support-conatainer h2{
-    color: white;
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  .support-conatainer p{
-    color: white;
-    margin-bottom: 32px;
-  }
-  input{
-    width: 728px;height: 75px;
-    box-sizing: border-box;
-border: 1px solid rgba(13, 19, 33, 0.15);
-border-radius: 8px;
-
-background: rgb(255, 255, 255);
-padding: 25.2px  26.6px 25.2px 26.6px;
-  }
-  .submit-btn
-  {
-    width: 160px;height: 75px;
-    border-radius: 8px;
-   
-
-background: rgb(255, 255, 255);
-padding: 22.6px 25.6px;
-border: none;
-
- color: black;
-
+  margin-bottom: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
  
- font-weight: 600;
-  }
+  align-items: center;
+}
+.support-conatainer h2 {
+  color: white;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.support-conatainer p {
+  color: white;
+  margin-bottom: 32px;
+}
+input {
+  width: 728px;
+  height: 75px;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 8px;
 
+  background: rgb(255, 255, 255);
+  padding: 25.2px 26.6px 25.2px 26.6px;
+}
+.submit-btn {
+  width: 160px;
+  height: 75px;
+  border-radius: 8px;
 
-  .social-container{
-    width: 100%;
-    height: auto;
-   
-    display: flex;
-    justify-content: space-between;
-    padding: 42px 0px;
+  background: rgb(255, 255, 255);
+  padding: 22.6px 25.6px;
+  border: none;
 
-    
-  }
-  .social-container .name{
-margin-left: 200px;
-  }
-  .social-container .socials{
-    margin-right: 200px;
-      }
-      .social-container .socials a{
-        margin-right: 10px;
-          }
+  color: black;
+
+  font-weight: 600;
+}
+
+.social-container {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  justify-content: space-between;
+  padding: 42px 0px;
+}
+.social-container .name {
+  margin-left: 200px;
+}
+.social-container .socials {
+  margin-right: 200px;
+}
+.social-container .socials a {
+  margin-right: 10px;
+}
