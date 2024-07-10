@@ -266,3 +266,57 @@ text-align: left;
 background-color: rgba(255, 223, 0, 0.05);
 
   }
+  /* Support Section */
+  .support-conatainer{
+    max-width: 1515px;
+    height: 416.29px;
+    margin: 0 auto;
+    background-image: 
+   
+    url(assets/handshake.jpg); 
+    border-radius: 16px;
+
+background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url(assets/handshake.jpg);
+background-position: center;
+
+margin-bottom: 120px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+/* gap: 20px; */
+align-items: center;
+
+  }
+  .support-conatainer h2{
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .support-conatainer p{
+    color: white;
+    margin-bottom: 32px;
+  }
+  input{
+    width: 728px;height: 75px;
+    box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 8px;
+
+background: rgb(255, 255, 255);
+padding: 25.2px  26.6px 25.2px 26.6px;
+  }
+  .submit-btn
+  {
+    width: 160px;height: 75px;
+    border-radius: 8px;
+   
+
+background: rgb(255, 255, 255);
+padding: 22.6px 25.6px;
+border: none;
+
+ color: black;
+
+ 
+ font-weight: 600;
+  }
