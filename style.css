@@ -7,9 +7,9 @@ body{
 
     font-family: "Azeret Mono", monospace;
 }
-html, body {
-  overflow-x: hidden; /* Prevent horizontal scrolling */
-}
+/* html, body {
+  overflow-x: hidden; 
+} */
 /* Reusable Components Styling */
 .paragraph{
   color: rgb(13, 19, 33);
